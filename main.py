@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow, QTextEdit, QToolBar, QPushButton, QSpinBox, QLabel, QWidget, QHBoxLayout, QVBoxLayout, QSpacerItem, QSizePolicy
 from PyQt5.QtGui import QFont, QTextCharFormat, QColor
 from PyQt5.QtCore import Qt
+from . database import create_textfiles_table, upload_file, insert_textfile_row
 
 
 class TextEditor(QMainWindow):
